@@ -1,21 +1,27 @@
 {
-  "name": "product-list",
-  "private": true,
-  "version": "0.0.0",
+  "name": "nuxt-product-list",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "nuxt test"
   },
   "dependencies": {
-    "vue": "^3.5.24"
+    "@nuxt/ui": "^4.4.0",
+    "nuxt": "^4.3.0",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
-    "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.24",
+    "jsdom": "^28.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vitest": "^4.0.18"
   }
 }
